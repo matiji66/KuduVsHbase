@@ -25,6 +25,8 @@ import org.apache.hadoop.hbase.util.Bytes;
 /**
  * java -cp com-pateo-kudu-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.pateo.hbase.api.HbaseGetUsage test:user 10000
  * 
+ * 	change scope for hbase client in pom ,default is <scope>provided</scope>
+
  * @author sh04595
  *
  */
