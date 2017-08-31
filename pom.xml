@@ -163,14 +163,15 @@
 					<artifactId>netty</artifactId>
 				</exclusion>
 			</exclusions>
+			<scope>provided</scope>
 		</dependency>
 
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.hbase</groupId>
 			<artifactId>hbase-protocol</artifactId>
 			<version>${hbase-version}</version>
-		</dependency>
+		</dependency> -->
 
 
 	</dependencies>
